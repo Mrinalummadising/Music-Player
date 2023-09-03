@@ -6,7 +6,6 @@
 }
 
 .background-music-score {
-    /*background-image: linear-gradient(0deg, rgb(150, 107, 107), rgb(135, 135, 163));*/
     background-size: cover;
     height: 130vh;
     display: flex;
