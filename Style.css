@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.background-music-score {
+    /*background-image: linear-gradient(0deg, rgb(150, 107, 107), rgb(135, 135, 163));*/
+    background-size: cover;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Music-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.heading {
+    background-color: color-mix(in hsl shorter hue, color 10%, color 10%);
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.Music-background-player {
+    background-image: linear-gradient(to bottom right, #cbd5d6, #59576a );
+    min-height: 730px;
+    min-width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.music-movie-playing-heading {
+    color: #1a061b;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.music-mov-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-song-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#currentTime {
+    font-weight: bold;
+}
+
+#TotaltimeDuration {
+    font-weight: bold;
+}
+
+.image {
+    background-image: url("https://th.bing.com/th/id/OIP.Ohn9f5T-TkaekWRAl5o4sgHaHa?pid=ImgDet&rs=1");
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.song-track-name {
+    font-size: 25px;
+}
+
+.song-artist {
+    font-size: 25px;
+}
+
+.music-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.music-slider-container {
+    padding: 2px;
+}
+
+.music-slider-container {
+    padding: 3px;
+}
+
+.music-playpause-track {
+  padding: 25px;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+
+.prev-track {
+  padding: 25px;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+
+.next-track {
+  padding: 25px;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+ 
+
+.playpause-track:hover {
+    opacity: 1.0;
+}
+
+.prev-track:hover {
+    opacity: 1.0;
+}
+
+.next-track:hover {
+    opacity: 1.0;
+}
+ 
+
+.slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+.seek_slider {
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+ 
+
+.seek_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+
+.seek_slider:hover {
+    opacity: 1.0;
+}
+
+.volume_slider:hover {
+  opacity: 1.0;
+}
+ 
+.seek_slider {
+  width: 60%;
+}
+ 
+.volume_slider {
+  width: 30%;
+}
+ 
+.current-time {
+    padding: 10px;
+}
+
+.total-duration {
+  padding: 10px;
+}
+ 
+i.fa-volume-down {
+    padding: 10px;
+}
+
+i.fa-volume-up {
+    padding: 10px;
+}
+ 
+
+i.fa-play-circle {
+    cursor: pointer;
+}
+
+i.fa-pause-circle {
+    cursor: pointer;
+}
+
+i.fa-step-forward {
+    cursor: pointer;
+}
+
+i.fa-step-backward {
+  cursor: pointer;
+}
+
+.volume-low {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.volume-up {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
